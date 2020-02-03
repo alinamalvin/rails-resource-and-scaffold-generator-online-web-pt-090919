@@ -101,3 +101,10 @@ Processing by Rails::WelcomeController#index as HTML
 Completed 200 OK in 21ms (Views: 10.2ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/articles" for 184.75.72.238 at 2020-02-03 21:50:44 +0000
+Cannot render console from 184.75.72.238! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (13.6ms)
